@@ -1,0 +1,17 @@
+[project]
+name = "youtube-rag-application"
+version = "0.1.0"
+description = "RAG application over YouTube video transcripts"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "youtube-transcript-api",
+    "langchain",
+    "langchain-community",
+    "faiss-cpu",
+    "openai",
+    "tiktoken",
+    "sentence_transformers",
+    "langchain-groq",
+    "python-dotenv"
+]
